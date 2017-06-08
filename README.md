@@ -4,6 +4,10 @@ tvOS: AVPlayerViewController reacts to Pause when isUserInteractionEnabled is se
 
 · Open radar: https://openradar.appspot.com/31283089
 
+# Update
+
+This issue was resolve in tvOS 11
+
 # Description
 Triggering the gesture Pause with Siri Remote in an instance of AVPlayerViewController with the property isUserInteractionEnabled set to false, reacts to the interaction pausing the player.
 
